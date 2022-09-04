@@ -1,0 +1,31 @@
+/*Custom Properties*/
+:root {
+    /*Colores*/
+    --blanco: #ffffff;
+    --oscuro: #21212121;
+    --amarillo: #FFC107;
+    --bondi-blue: #0097A7;
+
+
+    /*Tipografías*/
+    --jet-brains: "JetBrains Mono";
+
+}
+/*Configuraciones para tamaño de texto*/
+/*"rem" es relativo al documento*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--jet-brains);
+}
+
+.titulo {
+    text-align: center;
+    color: var(--bondi-blue);
+    font-size: 3.8 rem;
+}
+
+
