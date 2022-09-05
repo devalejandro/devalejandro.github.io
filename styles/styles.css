@@ -3,6 +3,7 @@
     /*Colores*/
     --blanco: #ffffff;
     --oscuro: #21212121;
+    --negro: #000000;
     --amarillo: #FFC107;
     --bondi-blue: #0097A7;
 
@@ -25,7 +26,25 @@ body {
 .titulo {
     text-align: center;
     color: var(--bondi-blue);
-    font-size: 3.8 rem;
+    font-size: 3.8rem;
 }
 
+.contenedor {
+    width: 120rem;
+    margin: 0rem auto;
+}
+
+.nav-background {
+    background-color: var(--blanco);
+}
+
+.navegacion-principal {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navegacion-principal a{
+    color: var(--negro);
+    text-decoration: none;
+}
 
