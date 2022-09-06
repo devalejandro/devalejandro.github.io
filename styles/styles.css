@@ -30,7 +30,7 @@ body {
 }
 
 .contenedor {
-    width: 120rem;
+    width: 110rem;
     margin: 0rem auto;
 }
 
@@ -41,12 +41,18 @@ body {
 .navegacion-principal {
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 .navegacion-principal a{
     color: var(--negro);
     text-decoration: none;
+    padding: 0.5rem;
     font-size: 2rem;
     font-weight: bold;
 }
 
+.navegacion-principal a:hover {
+    background-color: var(--bondi-blue);
+    color: var(--blanco);
+    border-radius: 1rem;
+}
