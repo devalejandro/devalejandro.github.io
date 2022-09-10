@@ -10,8 +10,17 @@
 
     /*Tipografías*/
     --jet-brains: "JetBrains Mono";
-
 }
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  
 /*Configuraciones para tamaño de texto*/
 /*"rem" es relativo al documento*/
 html {
@@ -42,14 +51,9 @@ body {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
-@media(min-width: 768px) {
-    .navegacion-principal{
-        flex-direction: row;
-    }
-}
 .navegacion-principal a{
     color: var(--negro);
     text-decoration: none;
@@ -64,11 +68,10 @@ body {
     border-radius: 1rem;
 }
 
-@media(min-width: 430px) {
 
+@media(min-width: 768px) {
+    .navegacion-principal{
+        flex-direction: row;
+    }
 }
 
-
-@media(min-width: 1024px) {
-
-}
