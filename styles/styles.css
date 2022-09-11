@@ -75,3 +75,16 @@ body {
     }
 }
 
+.contenedor_skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--negro);
+    text-decoration: none;
+}
