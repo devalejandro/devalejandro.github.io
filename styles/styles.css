@@ -89,11 +89,19 @@ body {
     text-decoration: none;
 }
 
-.tarjeta_servicios {
-    height: 30rem;
+.servicios {
+    display: flex;
+    justify-content: center;
+}
+main {
+    display: grid;
+    grid-template-columns: 2fr;
+}
+.tarjeta_servicios_disenio {
+    height: 15rem;
+    width: 100%;
+    display: block;
+    justify-content: center;
 }
 
-.servicios {
-    display: grid;
-    grid-template-columns: auto;
-}
+
